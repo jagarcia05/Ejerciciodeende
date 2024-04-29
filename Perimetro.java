@@ -9,7 +9,8 @@ public class Perimetro {
       * 
       */
 		Scanner sc= new Scanner(System.in);
-		int lado, resultado;
+		int lado=0;
+		int resultado=0;
 		
 		System.out.println("Escirbe el valor del lado");
 		lado = sc.nextInt();
